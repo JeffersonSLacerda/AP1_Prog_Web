@@ -36,7 +36,12 @@ img{
 .bg-gradient{
     background: linear-gradient(to right, #ce2e3c, #da6709);
 }
-
+.bg-black{
+    background-color: #130400;
+}
+.bg-white{
+    background-color: #fff;
+}
 /* Cabeçalho */
 .logo{
     width: 56px;
@@ -122,11 +127,9 @@ img{
     border-radius: 10px;
 }
 .btn-cadastrar{
-    background-color: #fff;
     color: #130400;
 }
 .btn-sobre{
-    background-color: #130400;
     color: #fff;
     margin-top: 2%;
 }
@@ -135,7 +138,6 @@ img{
 
 .servico{
     width: 100%;
-    background-color: #fff;
     text-align: left;
     border-radius: 7px;
     margin-bottom: 3%;
@@ -163,10 +165,6 @@ img{
 }
 
 /* Newsletter */
-
-.newsletter{
-    background-color: #130400;
-}
 .newsletter h2{
     font-size: 1.5em;
     color: #fff;
@@ -188,7 +186,6 @@ img{
 }
 .newsletter button{
     width: 100%;
-    background-color: #fff;
     color: #130400;
     padding: 5%;
     border-radius: 5px;
